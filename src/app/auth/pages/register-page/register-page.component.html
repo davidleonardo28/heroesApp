@@ -1,0 +1,35 @@
+<div>
+  <div
+    class="login-container flex flex-column align-items-center justify-content-center"
+  >
+    <mat-card class="p-4">
+      <mat-card-header class="text-lg mb-4 justify-content-center">
+        <mat-card-title>Registro</mat-card-title>
+      </mat-card-header>
+
+      <mat-card-content>
+        <mat-form-field class="w-full mb-4">
+          <mat-label>Usuario</mat-label>
+          <input type="text" matInput placeholder="Nombre de Usuario" />
+        </mat-form-field>
+        <mat-form-field class="w-full mb-4">
+          <mat-label>Nombres</mat-label>
+          <input type="text" matInput placeholder="Nombres" />
+        </mat-form-field>
+        <mat-form-field class="w-full mb-4">
+          <mat-label>Contraseña</mat-label>
+          <input type="password" matInput placeholder="Contraseña" />
+        </mat-form-field>
+
+        <button mat-flat-button color="accent" class="w-full">
+          <mat-icon>app_registration</mat-icon>
+          Crear Cuenta
+        </button>
+      </mat-card-content>
+    </mat-card>
+
+    <div class="flex justify-content-end mt-5">
+      <a routerLink="/auth/login">¿Ya tienes cuenta?</a>
+    </div>
+  </div>
+</div>

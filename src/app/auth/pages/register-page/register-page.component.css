@@ -1,0 +1,42 @@
+.login-container {
+    width: 100%;
+    max-width: 1200px;
+}
+
+mat-card {
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+mat-form-field {
+    width: 100%;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+button mat-icon {
+    margin-right: 8px;
+}
+
+mat-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+mat-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+}
+
+mat-form-field {
+    border-radius: 4px;
+}
+
+button {
+    font-weight: bold;
+}
