@@ -26,8 +26,10 @@
     </button>
 
     <span class="spacer"></span>
+
+    <span style="color: white" class="pr-2">{{ user?.email }}</span>
     <mat-icon>logout</mat-icon>
-    <button mat-button style="color: white">Logout</button>
+    <button mat-button style="color: white" (click)="onLogout()">Logout</button>
   </mat-toolbar>
 
   <div class="container p-2">

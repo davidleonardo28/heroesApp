@@ -1,1 +1,28 @@
-<p>error404-page works!</p>
+<!-- error404.component.html -->
+<div
+  class="container"
+  style="
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+  "
+>
+  <mat-card style="width: 100%; max-width: 600px">
+    <mat-card-header>
+      <mat-card-title>Página no encontrada</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <p>
+        Lo sentimos, la página que buscas no existe o debes iniciar sesión
+        primero.
+      </p>
+    </mat-card-content>
+    <mat-card-actions style="justify-content: flex-end">
+      <button mat-raised-button color="primary" (click)="returnLogin()">
+        Volver al inicio
+      </button>
+    </mat-card-actions>
+  </mat-card>
+</div>

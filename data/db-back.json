@@ -2,7 +2,7 @@
   "users": [
     {
       "id": 1,
-      "usuario": "John Doe",
+      "user": "John Doe",
       "email": "john.due@gmail.com"
     }
   ],
@@ -166,6 +166,15 @@
       "alter_ego": "Norrin Radd",
       "first_appearance": "The Fantastic Four #48",
       "characters": "Norrin Radd"
+    },
+    {
+      "id": "8024fb21-d3ef-4060-a603-1e3bf0134cf6",
+      "superhero": "Scorpion",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Scorpion ",
+      "first_appearance": "Mortal Kombat 3",
+      "characters": "Scorpion",
+      "alt_img": "https://ih1.redbubble.net/image.4933345630.2745/flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
     }
   ]
 }
